@@ -1,0 +1,32 @@
+#navButton {
+    margin-top: 180px !important;
+}
+
+body {
+    background-color: #EEE !important;
+}
+
+#tvProduct .sort,
+#tvProduct .compare,
+#tvProduct .filter {
+    background-color: #fff !important;
+    padding: 10px;
+    min-width: 180px;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+
+/*Arrow */
+
+.arrowStart,
+.arrowEnd {
+    background-color: #ddd !important;
+    border-radius: 50% !important;
+    font-weight: bold;
+}
+
+.arrowStart i {
+    color: rgb(10, 10, 78);
+    font-size: 18px !important;
+}

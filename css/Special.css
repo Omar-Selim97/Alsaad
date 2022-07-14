@@ -1,0 +1,73 @@
+/*Tv section*/
+
+body {
+    background-color: #EEE !important;
+}
+
+#tv {
+    margin-top: 230px;
+}
+
+#tv .sort {
+    background-color: #fff !important;
+    padding: 15px;
+    min-width: 220px;
+    min-height: 100px;
+}
+
+.mainDev {
+    display: grid;
+}
+
+
+/*Filter Section*/
+
+.filter {
+    background-color: #fff !important;
+    padding: 15px;
+    min-width: 220px;
+    min-height: 200px;
+    margin-top: 20px;
+}
+
+.filter h6 {
+    position: relative;
+}
+
+.filter .iconBottom {
+    margin-left: 200px;
+}
+
+@media (max-width: 767.98px) {
+    .border-sm-start-none {
+        border-left: none !important;
+    }
+}
+
+.filter h6::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #DDD;
+    height: 2px;
+    /* optional animation */
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+
+/*Product Card*/
+
+.product {
+    background-color: #fff;
+}
+
+#table .card {
+    margin-left: 300px !important;
+}
