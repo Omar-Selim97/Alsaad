@@ -45,7 +45,21 @@ html {
 
 /*Media for Mobile*/
 
-@media (max-width: 767.98px) {
+@media (min-width: 767.98px)and (max-width: 991px) {
+    .input-group img,
+    .nav-link img {
+        max-width: 25px;
+        border-radius: 50%;
+    }
+    .navF {
+        display: inline-block !important;
+    }
+}
+
+
+/**/
+
+@media (min-width: 576px) and (max-width: 767px) {
     .input-group img,
     .nav-link img {
         max-width: 20px;
@@ -94,10 +108,10 @@ html {
     border-radius: 40px 0px 0px 40px;
     border: none;
     width: 50px;
+    background-color: #fff;
 }
 
 .header-search form .input {
-    width: calc(100% - 260px);
     margin-right: -4px;
     border: none;
 }
@@ -105,13 +119,51 @@ html {
 
 /*Media for small screen*/
 
-@media (max-width: 767.98px) {
+
+/*Media for Mobile*/
+
+@media (min-width: 767.98px)and (max-width: 991px) {
     .header-search {
-        max-width: 200px;
-        min-width: 50px;
+        max-width: 300px;
+        min-width: 100px;
     }
     .header-search form .input {
         width: 100px;
+    }
+    .header-search form .input-select {
+        width: 40px;
+    }
+    .LOGO {
+        margin-left: 160px !important;
+    }
+}
+
+
+/**/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header-search {
+        max-width: 180px;
+        min-width: 60px;
+    }
+    .header-search form .input {
+        width: 150px;
+    }
+    .header-search form .input-select {
+        width: 30px;
+    }
+    .LOGO {
+        margin-left: 120px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .header-search {
+        max-width: 100px !important;
+        min-width: 40px;
+    }
+    .header-search form .input {
+        width: 60px;
     }
     .header-search form .input-select {
         width: 30px;
@@ -124,12 +176,12 @@ html {
 
 /*Medium devices (tablets, less than 992px)*/
 
-@media (max-width: 991.98px) {
+@media (min-width: 991.98px) {
     .header-search form .input-select {
         width: 40px;
     }
     .header-search {
-        max-width: 400px;
+        max-width: 350px;
         min-width: 150px;
     }
     .header-search form .input {
@@ -169,6 +221,12 @@ html {
 .nav2 .navIcon {
     display: flex;
     flex-direction: row;
+    margin: auto;
+}
+
+.nav2 .navIcon .nav-link {
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .nav2 a:hover {
