@@ -1,0 +1,124 @@
+/*Tv section*/
+
+body {
+    background-color: #EEE !important;
+}
+
+
+/*Heading*/
+
+.mainDev {
+    display: grid;
+}
+
+
+/*Filter Section*/
+
+.filter h6 {
+    position: relative;
+}
+
+.filter .iconBottom {
+    margin-left: 200px;
+}
+
+@media (max-width: 767.98px) {
+    .border-sm-start-none {
+        border-left: none !important;
+    }
+}
+
+.filter h6::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #DDD;
+    height: 2px;
+    /* optional animation */
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+
+/*Product Card*/
+
+#tvProduct {
+    margin-top: 250px;
+}
+
+#table .card {
+    margin-left: 300px !important;
+}
+
+
+/*End Product Card*/
+
+
+/*Xs*/
+
+@media (max-width: 575.98px) {
+    .sort,
+    .filter {
+        background-color: #fff !important;
+        padding: 10px;
+        max-width: 180px;
+        min-height: 100px;
+    }
+    .container .card .tickt {
+        position: absolute;
+        margin-left: 220px !important;
+    }
+    .card img {
+        max-width: 120px;
+    }
+    .product .tickt {
+        max-width: 30px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+
+/**/
+
+.sort,
+.filter {
+    background-color: #fff !important;
+    padding: 10px;
+    min-width: 180px;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+#tvProduct h2 {
+    color: #061f47 !important;
+    padding-left: 20px;
+}
+
+
+/*product card*/
+
+.container .card {
+    position: relative;
+}
+
+.container .card .tickt {
+    position: absolute;
+}
+
+.product img {
+    max-width: 300px;
+}
+
+.product .tickt {
+    max-width: 50px !important;
+}
+
+
+/*Arrow */
