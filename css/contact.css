@@ -103,3 +103,29 @@ main .store {
 .social img {
     max-width: 40px;
 }
+
+
+/*Xs*/
+
+@media (max-width: 575.98px) {
+    main h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .contact {
+        font-size: 15px !important;
+    }
+    .form input,
+    .form textarea {
+        width: 220px;
+        padding: 10px;
+    }
+    .sub .btn-hover {
+        width: 220px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+
+/*End small screen*/
