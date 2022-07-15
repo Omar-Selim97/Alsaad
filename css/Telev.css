@@ -6,14 +6,38 @@ body {
     background-color: #EEE !important;
 }
 
-#tvProduct .sort,
-#tvProduct .compare,
-#tvProduct .filter {
+.sort,
+.compare,
+.filter {
     background-color: #fff !important;
     padding: 10px;
     min-width: 180px;
     margin-bottom: 10px;
     min-height: 100px;
+}
+
+#tvProduct h2 {
+    color: #061f47 !important;
+    padding-left: 20px;
+}
+
+
+/*product card*/
+
+.conyainer .card {
+    position: relative;
+}
+
+.conyainer .card .tickt {
+    position: absolute;
+}
+
+.product img {
+    max-width: 300px;
+}
+
+.product .tickt {
+    max-width: 50px !important;
 }
 
 
@@ -29,4 +53,18 @@ body {
 .arrowStart i {
     color: rgb(10, 10, 78);
     font-size: 18px !important;
+}
+
+.driver {
+    border-top: 1px solid #EEE;
+}
+
+.TVHeading {
+    color: #061f47 !important;
+    padding-bottom: - 100px;
+}
+
+.filter h6 {
+    border-bottom: 1px solid #061f47;
+    color: #061f47 !important;
 }
