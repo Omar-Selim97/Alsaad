@@ -11,3 +11,109 @@ body {
     padding-bottom: 20px;
     margin-left: 100px;
 }
+
+
+/**/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #navButton .ButtonContent {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #navButton {
+        margin-top: 280px !important;
+    }
+    #navButton button {
+        margin: 10px;
+        max-width: 180px;
+    }
+    #navButton .ButtonContent {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .card .tickt {
+        position: absolute;
+        margin-left: 260px !important;
+    }
+    .arrowStart,
+    .arrowEnd {
+        display: none !important;
+    }
+    #navButton button {
+        margin: 10px;
+        max-width: 100px;
+    }
+    #navButton {
+        margin-top: 250px !important;
+    }
+    .navF {
+        width: 100%;
+    }
+}
+
+
+/*End small screen*/
+
+
+/*Medium Screen*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #navButton .ButtonContent {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #navButton {
+        margin-top: 240px !important;
+    }
+    #navButton button {
+        margin: 10px;
+        max-width: 180px;
+    }
+    .container .card .tickt {
+        position: absolute;
+        margin-left: 320px !important;
+    }
+    .navF {
+        width: 100%;
+    }
+}
+
+
+/*Xs Screen*/
+
+@media (max-width: 575.98px) {
+    #navButton .ButtonContent {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #navButton {
+        margin-top: 280px !important;
+    }
+    #navButton button {
+        margin: 10px;
+        max-width: 180px;
+    }
+    .card h4 {
+        font-size: 16px;
+    }
+    .card h5 {
+        font-size: 14px;
+    }
+    .card {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .navF {
+        width: 100%;
+    }
+    .header-search {
+        max-width: 100px !important;
+        min-width: 40px;
+    }
+    .header-search form .input {
+        width: 60px;
+    }
+    .header-search form .input-select {
+        width: 30px;
+    }
+}
