@@ -77,7 +77,7 @@ body {
     .card img {
         max-width: 220px !important;
     }
-    .product .tickt {
+    .card .tickt {
         max-width: 30px !important;
     }
     .allButton {
@@ -140,6 +140,7 @@ body {
 
 .container .card .tickt {
     position: absolute;
+    margin-left: 720px !important;
 }
 
 .product img {
