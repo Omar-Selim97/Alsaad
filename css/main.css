@@ -95,6 +95,10 @@ html {
 			Search
 \*----------------------------*/
 
+.LOGOMobile {
+    display: none;
+}
+
 .header-search {
     padding: 15px 0px;
     width: 570px;
@@ -159,14 +163,31 @@ html {
 
 @media (max-width: 575px) {
     .header-search {
-        max-width: 100px !important;
-        min-width: 40px;
+        max-width: 220px !important;
+        min-width: 140px;
     }
     .header-search form .input {
-        width: 60px;
+        width: 100px;
     }
     .header-search form .input-select {
         width: 30px;
+    }
+    .navMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .LOGOMobile {
+        display: block;
+        margin-left: 80px;
+        margin-top: 5px;
+    }
+    .LOGOMobile img {
+        max-width: 100px !important;
+    }
+    .LOGOAll .LOGO {
+        display: none !important;
     }
 }
 
@@ -310,7 +331,7 @@ html {
 
 @media (max-width: 567px) {
     #carouselExampleControls {
-        margin-top: 260px;
+        margin-top: 280px;
     }
 }
 
