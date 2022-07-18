@@ -70,6 +70,27 @@ body {
         max-width: 180px;
         min-height: 100px;
     }
+    .strikethrough {
+        position: relative;
+    }
+    .strikethrough {
+        position: relative;
+    }
+    .strikethrough:before {
+        position: absolute;
+        content: "";
+        left: 30%;
+        bottom: 50%;
+        right: 0;
+        width: 50px;
+        border-top: 1px solid red !important;
+        border-color: inherit;
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
     .container .card .tickt {
         position: absolute;
         margin-left: 220px !important;
@@ -112,6 +133,27 @@ body {
     .navF {
         width: 100%;
     }
+    .strikethrough {
+        position: relative;
+    }
+    .strikethrough {
+        position: relative;
+    }
+    .strikethrough:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 50%;
+        right: 10%;
+        width: 50px;
+        border-top: 1px solid red !important;
+        border-color: inherit;
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
 }
 
 
@@ -131,6 +173,39 @@ body {
     padding-left: 20px;
 }
 
+.driver {
+    border-top: 1px solid #EEE;
+}
+
+.lightButton {
+    background-color: #EEE !important;
+    border-radius: 10px !important;
+}
+
+.lightButton a {
+    color: #113265 !important;
+}
+
+.strikethrough {
+    position: relative;
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 50%;
+    right: 0;
+    width: 100px;
+    border-top: 1px solid red !important;
+    border-color: inherit;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
 
 /*product card*/
 
@@ -140,7 +215,7 @@ body {
 
 .container .card .tickt {
     position: absolute;
-    margin-left: 720px !important;
+    margin-left: 600px !important;
 }
 
 .product img {

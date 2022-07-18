@@ -1,5 +1,5 @@
 #navButton {
-    margin-top: 180px !important;
+    margin-top: 220px !important;
 }
 
 body {
@@ -42,6 +42,29 @@ body {
 }
 
 
+/*Line through*/
+
+.strikethrough {
+    position: relative;
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 50%;
+    right: 0;
+    width: 100px;
+    border-top: 1px solid red !important;
+    border-color: inherit;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+
 /*Arrow */
 
 .arrowStart,
@@ -68,6 +91,15 @@ body {
 .filter h6 {
     border-bottom: 1px solid #061f47;
     color: #061f47 !important;
+}
+
+.lightButton {
+    background-color: #EEE !important;
+    border-radius: 10px !important;
+}
+
+.lightButton a {
+    color: #113265 !important;
 }
 
 

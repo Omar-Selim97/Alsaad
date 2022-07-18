@@ -11,13 +11,18 @@
     <link rel="stylesheet" href="css/about.css">
     <!--Bootstrap css file-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> scr
+    <!--Bootstrap js file-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--Js file-->
+    <script defer src="js/main.js"></script>
+    <script defer src="js/about.js"></script>
     <title>About Us</title>
 
 </head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+<script defer src="js/jquery.js"></script>
+
 
 <body>
     <!--Header-->
@@ -193,24 +198,32 @@
     <!--End Header-->
     <!--Start About Us -->
     <section id="about">
-        <div class="center container" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-            <div>
-                <h3>1</h3>
-            </div>
-            <div>
-                <h3>2</h3>
-            </div>
-            <div>
-                <h3>3</h3>
-            </div>
-            <div>
-                <h3>4</h3>
-            </div>
-            <div>
-                <h3>5</h3>
-            </div>
-            <div>
-                <h3>6</h3>
+        <div class="container">
+            <div class="container pt-5">
+                <div class="row  d-flex justify-content-center">
+                    <div class="col-md-5 p-4 border">
+
+                        <h2>Redirect page dependent dropdown</h2>
+
+                        <form name="myform" id="myForm">
+                            <select class="form-select" id="category_sel" size="1">
+                               <option value="" selected="selected">-- Select category --</option>
+                           </select>
+                            <br>
+                            <br>
+
+                            <select class="form-select" id="topic_sel" size="1">
+                               <option value="" selected="selected">-- Select Blog --</option>
+                           </select>
+                            <br>
+                            <br>
+
+                            <button type="button" id="filter_s" class="btn btn-primary">Search</button>
+
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </div>
 

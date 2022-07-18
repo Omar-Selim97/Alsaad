@@ -42,6 +42,82 @@ html {
     border-top-right-radius: 20px !important;
 }
 
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: #EEE !important;
+}
+
+
+/*style the arrow inside the select element:*/
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+
+/*point the arrow upwards when the select box is open (active):*/
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+
+/*style the items (options), including the selected item:*/
+
+.select-items div,
+.select-selected {
+    color: #222;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/*style items (options):*/
+
+.select-items {
+    position: absolute;
+    background-color: #EEE;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+
+/*hide the items when the select box is closed:*/
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/*Select Menu*/
+
 
 /*Media for Mobile*/
 
@@ -95,29 +171,13 @@ html {
 			Search
 \*----------------------------*/
 
+.LOGO img {
+    max-width: 250px !important;
+    padding: 5%;
+}
+
 .LOGOMobile {
     display: none;
-}
-
-.header-search {
-    padding: 15px 0px;
-    width: 570px;
-}
-
-.header-search form {
-    position: relative;
-}
-
-.header-search form .input-select {
-    border-radius: 40px 0px 0px 40px;
-    border: none;
-    width: 50px;
-    background-color: #fff;
-}
-
-.header-search form .input {
-    margin-right: -4px;
-    border: none;
 }
 
 
@@ -127,18 +187,12 @@ html {
 /*Media for Mobile*/
 
 @media (min-width: 767.98px)and (max-width: 991px) {
-    .header-search {
-        max-width: 300px;
-        min-width: 100px;
-    }
-    .header-search form .input {
-        width: 100px;
-    }
-    .header-search form .input-select {
-        width: 40px;
-    }
     .LOGO {
-        margin-left: 160px !important;
+        margin-left: 200px !important;
+    }
+    .LOGO img {
+        max-width: 140px !important;
+        padding: 5%;
     }
 }
 
@@ -146,32 +200,16 @@ html {
 /**/
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .header-search {
-        max-width: 180px;
-        min-width: 60px;
-    }
-    .header-search form .input {
-        width: 150px;
-    }
-    .header-search form .input-select {
-        width: 30px;
-    }
     .LOGO {
         margin-left: 120px !important;
+    }
+    .LOGO img {
+        max-width: 100px !important;
+        padding: 5%;
     }
 }
 
 @media (max-width: 575px) {
-    .header-search {
-        max-width: 220px !important;
-        min-width: 140px;
-    }
-    .header-search form .input {
-        width: 100px;
-    }
-    .header-search form .input-select {
-        width: 30px;
-    }
     .navMobile {
         display: flex;
         flex-direction: column;
@@ -198,16 +236,6 @@ html {
 /*Medium devices (tablets, less than 992px)*/
 
 @media (min-width: 991.98px) {
-    .header-search form .input-select {
-        width: 40px;
-    }
-    .header-search {
-        max-width: 350px;
-        min-width: 150px;
-    }
-    .header-search form .input {
-        width: 200px;
-    }
     .LOGO {
         margin-left: 100px !important;
     }
