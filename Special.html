@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/SliderButton.css">
     <!--Special Css file -->
+    <link rel="stylesheet" href="css/Telev.css">
     <link rel="stylesheet" href="css/Special.css">
     <!--Bootstrap css file-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
@@ -16,7 +18,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!--Js file-->
     <script defer src="js/main.js"></script>
-    <title>Special Deals</title>
+    <title>Television ok</title>
 </head>
 
 <body>
@@ -54,8 +56,8 @@
                         <form>
                             <div class="btn-group">
                                 <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                      All
-                    </button>
+                          All
+                        </button>
                                 <ul class="dropdown-menu">
                                     <li class="d-flex">
                                         <a class="dropdown-item text-success" href="#">Shop by Categoery</a>
@@ -120,8 +122,8 @@
                         <div class="nav-item">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-transperant pb-2 text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                      All
-                    </button>
+                          All
+                        </button>
                                 <ul class="dropdown-menu">
                                     <li class="d-flex">
                                         <a class="dropdown-item text-success" href="#">Shop by Categoery</a>
@@ -194,7 +196,7 @@
 
     </header>
     <!--End Header-->
-    <!--Heading-->
+
     <!--Tev Section-->
     <section id="tvProduct">
         <div class="container ">
@@ -208,7 +210,7 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-3 aside">
+                <div class="col-sm-3">
                     <div class="sort ">
                         <h5 class="text-success">Sort by:</h5>
                         <div class="form-check">
@@ -250,7 +252,14 @@
                                 </label>
                         </div>
                         <div>
+                            <h6 class="d-flex justify-content-between">
+                                <span>Price Range</span>
+                                <span class="iconBottom"><i class="bi bi-chevron-up"></i></span>
+                            </h6>
 
+                            <div>
+                                <input type="range" class="form-range" id="customRange1">
+                            </div>
 
                         </div>
                         <div class="form-check">
@@ -278,10 +287,9 @@
                                 </label>
                         </div>
                     </div>
-                    <!--Comp-->
 
                 </div>
-                <div class="col-sm-9 text-start product">
+                <div class="col-md-9 col-sm-12 text-start product">
 
 
                     <!--1st-->
@@ -319,140 +327,22 @@
 
                                     <div class="col">
                                         <button class="btn btn-success mx-2">
-                                        <a class="text-decoration-none text-white" href="Comparsion.html">Compare</a>
+                                            <a class="text-decoration-none text-white" href="Comparsion.html">Compare</a>
 
-                                    </button>
+                                        </button>
                                         <button class="btn lightButton">
-                                       <a class="text-decoration-none" href="/"> Add To chart</a>
-                                    </button>
+                                           <a class="text-decoration-none" href="/"> Add To chart</a>
+                                        </button>
 
                                     </div>
                                     <div class="col">
                                         <button class="btn lightButton mx-3">
-                                        <a class="text-decoration-none" href="/">Store pick up </a>
+                                            <a class="text-decoration-none" href="/">Store pick up </a>
 
-                                    </button>
+                                        </button>
                                         <button class="btn lightButton">
-                                        <a class="text-decoration-none" href="/">Home Delievery</a>
-                                    </button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--1st-->
-
-                    <!--1st-->
-                    <div class="container ">
-                        <div class="container card mb-3">
-                            <img class="tickt ms-auto" src="img/sales.png" alt="">
-
-                            <div class="card-header bg-transparent mb-2">
-                                <h3> <a class="text-decoration-none TVHeading" href="TvProduct.html">Samsung 85-inch Smart QLED Tv UHD-4k, Black</a> </h3>
-
-                            </div>
-
-                            <div class="row cardP ">
-
-                                <div class="col col-lg">
-                                    <a href="TvProduct.html">
-                                        <img src="img/tv.png" alt="" srcset="">
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <h5 class="text-success">Item Code : DTD334433 </h5>
-                                    <p>-Color : Black</p>
-                                    <p>-Resolution : 870*345</p>
-                                    <p>-Screen Size : 65</p>
-                                    <p>-Number of Usb port : 2</p>
-                                    <button class="btn btn-light"> Full Product Spect</button>
-                                </div>
-                                <div class="col">
-                                    <h5 class="strikethrough">SAR 3,800</h5>
-                                    <h4>SAR 3,200</h4>
-                                    <h6 class="px-3">Inclusive VAT</h6>
-                                </div>
-
-                                <div class="row driver p-2">
-
-                                    <div class="col">
-                                        <button class="btn btn-success mx-2">
-                                    <a class="text-decoration-none text-white" href="Comparsion.html">Compare</a>
-
-                                </button>
-                                        <button class="btn lightButton">
-                                   <a class="text-decoration-none" href="/"> Add To chart</a>
-                                </button>
-
-                                    </div>
-                                    <div class="col">
-                                        <button class="btn lightButton mx-3">
-                                    <a class="text-decoration-none" href="/">Store pick up </a>
-
-                                </button>
-                                        <button class="btn lightButton">
-                                    <a class="text-decoration-none" href="/">Home Delievery</a>
-                                </button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--1st-->
-
-                    <!--1st-->
-                    <div class="container ">
-                        <div class="container card mb-3">
-                            <img class="tickt ms-auto" src="img/sales.png" alt="">
-
-                            <div class="card-header bg-transparent mb-2">
-                                <h3> <a class="text-decoration-none TVHeading" href="TvProduct.html">Samsung 85-inch Smart QLED Tv UHD-4k, Black</a> </h3>
-
-                            </div>
-
-                            <div class="row cardP ">
-
-                                <div class="col col-lg">
-                                    <a href="TvProduct.html">
-                                        <img src="img/tv.png" alt="" srcset="">
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <h5 class="text-success">Item Code : DTD334433 </h5>
-                                    <p>-Color : Black</p>
-                                    <p>-Resolution : 870*345</p>
-                                    <p>-Screen Size : 65</p>
-                                    <p>-Number of Usb port : 2</p>
-                                    <button class="btn btn-light"> Full Product Spect</button>
-                                </div>
-                                <div class="col">
-                                    <h5 class="strikethrough">SAR 3,800</h5>
-                                    <h4>SAR 3,200</h4>
-                                    <h6 class="px-3">Inclusive VAT</h6>
-                                </div>
-
-                                <div class="row driver p-2">
-
-                                    <div class="col">
-                                        <button class="btn btn-success mx-2">
-                                        <a class="text-decoration-none text-white" href="Comparsion.html">Compare</a>
-
-                                    </button>
-                                        <button class="btn lightButton">
-                                       <a class="text-decoration-none" href="/"> Add To chart</a>
-                                    </button>
-
-                                    </div>
-                                    <div class="col">
-                                        <button class="btn lightButton mx-3">
-                                        <a class="text-decoration-none" href="/">Store pick up </a>
-
-                                    </button>
-                                        <button class="btn lightButton">
-                                        <a class="text-decoration-none" href="/">Home Delievery</a>
-                                    </button>
+                                            <a class="text-decoration-none" href="/">Home Delievery</a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -495,30 +385,145 @@
 
                                     <div class="col">
                                         <button class="btn btn-success mx-2">
-                        <a class="text-decoration-none text-white" href="Comparsion.html">Compare</a>
+                                            <a class="text-decoration-none text-white" href="Comparsion.html">Compare</a>
 
-                    </button>
+                                        </button>
                                         <button class="btn lightButton">
-                       <a class="text-decoration-none" href="/"> Add To chart</a>
-                    </button>
+                                           <a class="text-decoration-none" href="/"> Add To chart</a>
+                                        </button>
 
                                     </div>
                                     <div class="col">
                                         <button class="btn lightButton mx-3">
-                        <a class="text-decoration-none" href="/">Store pick up </a>
+                                            <a class="text-decoration-none" href="/">Store pick up </a>
 
-                    </button>
-                                        <button class="btn btn-light lightButton">
-                        <a class="text-decoration-none" href="/">Home Delievery</a>
-                    </button>
+                                        </button>
+                                        <button class="btn lightButton">
+                                            <a class="text-decoration-none" href="/">Home Delievery</a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+                    <!--2st-->
                     <!--1st-->
+                    <div class="container ">
+                        <div class="container card mb-3">
+                            <img class="tickt ms-auto" src="img/sales.png" alt="">
 
+                            <div class="card-header bg-transparent mb-2">
+                                <h3> <a class="text-decoration-none TVHeading" href="TvProduct.html">Samsung 85-inch Smart QLED Tv UHD-4k, Black</a> </h3>
+
+                            </div>
+
+                            <div class="row cardP ">
+
+                                <div class="col col-lg">
+                                    <a href="TvProduct.html">
+                                        <img src="img/tv.png" alt="" srcset="">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <h5 class="text-success">Item Code : DTD334433 </h5>
+                                    <p>-Color : Black</p>
+                                    <p>-Resolution : 870*345</p>
+                                    <p>-Screen Size : 65</p>
+                                    <p>-Number of Usb port : 2</p>
+                                    <button class="btn btn-light"> Full Product Spect</button>
+                                </div>
+                                <div class="col">
+                                    <h5 class="strikethrough">SAR 3,800</h5>
+                                    <h4>SAR 3,200</h4>
+                                    <h6 class="px-3">Inclusive VAT</h6>
+                                </div>
+
+                                <div class="row driver p-2">
+
+                                    <div class="col">
+                                        <button class="btn btn-success mx-2">
+                                            <a class="text-decoration-none text-white" href="Comparsion.html">Compare</a>
+
+                                        </button>
+                                        <button class="btn lightButton">
+                                           <a class="text-decoration-none" href="/"> Add To chart</a>
+                                        </button>
+
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn lightButton mx-3">
+                                            <a class="text-decoration-none" href="/">Store pick up </a>
+
+                                        </button>
+                                        <button class="btn lightButton">
+                                            <a class="text-decoration-none" href="/">Home Delievery</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--3st-->
+                    <!--1st-->
+                    <div class="container ">
+                        <div class="container card mb-3">
+                            <img class="tickt ms-auto" src="img/sales.png" alt="">
+
+                            <div class="card-header bg-transparent mb-2">
+                                <h3> <a class="text-decoration-none TVHeading" href="TvProduct.html">Samsung 85-inch Smart QLED Tv UHD-4k, Black</a> </h3>
+
+                            </div>
+
+                            <div class="row cardP ">
+
+                                <div class="col col-lg">
+                                    <a href="TvProduct.html">
+                                        <img src="img/tv.png" alt="" srcset="">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <h5 class="text-success">Item Code : DTD334433 </h5>
+                                    <p>-Color : Black</p>
+                                    <p>-Resolution : 870*345</p>
+                                    <p>-Screen Size : 65</p>
+                                    <p>-Number of Usb port : 2</p>
+                                    <button class="btn btn-light"> Full Product Spect</button>
+                                </div>
+                                <div class="col">
+                                    <h5 class="strikethrough">SAR 3,800</h5>
+                                    <h4>SAR 3,200</h4>
+                                    <h6 class="px-3">Inclusive VAT</h6>
+                                </div>
+
+                                <div class="row driver p-2">
+
+                                    <div class="col">
+                                        <button class="btn btn-success mx-2">
+                                            <a class="text-decoration-none text-white" href="Comparsion.html">Compare</a>
+
+                                        </button>
+                                        <button class="btn lightButton">
+                                           <a class="text-decoration-none" href="/"> Add To chart</a>
+                                        </button>
+
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn lightButton mx-3">
+                                            <a class="text-decoration-none" href="/">Store pick up </a>
+
+                                        </button>
+                                        <button class="btn lightButton">
+                                            <a class="text-decoration-none" href="/">Home Delievery</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                     <!--End 3st-->
 
                 </div>
@@ -590,7 +595,6 @@
     </div>
 
     <!--End Footer-->
-
 </body>
 
 </html>

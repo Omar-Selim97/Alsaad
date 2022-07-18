@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/SliderButton.css">
     <!--Special Css file -->
     <link rel="stylesheet" href="css/Telev.css">
+
     <!--Bootstrap css file-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -16,7 +18,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!--Js file-->
     <script defer src="js/main.js"></script>
-    <title>Television</title>
+    <title>Television ok</title>
 </head>
 
 <body>
@@ -194,25 +196,58 @@
 
     </header>
     <!--End Header-->
-    <!--Nav of Button -->
-    <section class="mb-5" id="navButton">
-        <div class="container text-center ">
-            <div class="d-flex justify-content-start ButtonContent ">
-                <button class="arrowStart btn btn-light">
-                    <i class="bi bi-chevron-left"></i>
-                </button>
-                <button class="btn btn-light mx-3">Air Conditioning</button>
-                <button class="btn btn-light mx-3">Washing Machine & Drays</button>
-                <button class="btn btn-success mx-3">Television</button>
-                <button class="btn btn-light mx-3">Air Conditioning</button>
-                <button class="btn btn-light mx-3">Washing Machine & Drays</button>
-                <button class="arrowEnd  btn btn-light">
-                    <i class="bi bi-chevron-right"></i>
-                </button>
+    <!--Start Slider Button -->
+    <section id="sliderButton">
+        <div class="container">
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto justify-content-center">
+                    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col sliderCol">
+                                    <button class="btn btn-success">Television</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class=" col sliderCol">
+                                    <button class="btn  btn-light">Air Conditioning</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col sliderCol">
+                                    <button class="btn  btn-light">Washing Machine & Drays</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col sliderCol">
+                                    <button class="btn  btn-light">Air Conditioning</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col sliderCol">
+                                    <button class="btn btn-light">Washing Machine & Drays</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col sliderCol">
+                                    <button class="btn btn-light">Kitchen Application</button>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev bg-transparent w-aut arowRight" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut arowLeft" href="#recipeCarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
+
+
     </section>
-    <!--Nav Button-->
+    <!--End Slider Button-->
     <!--Tev Section-->
     <section id="tvProduct">
         <div class="container ">

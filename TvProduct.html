@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Main css File-->
     <link rel="stylesheet" href="css/main.css">
+    <!--Slider-->
+    <link rel="stylesheet" href="css/SliderButton.css">
     <!--Special Css file -->
     <link rel="stylesheet" href="css/TvProduct.css">
     <!--Bootstrap css file-->
@@ -195,25 +197,58 @@
 
     </header>
     <!--End Header-->
-    <!--Nav of Button -->
-    <section class="mb-5" id="navButton">
-        <div class="container text-center">
-            <div class="d-flex justify-content-start ButtonContent ">
-                <button class="arrowStart btn btn-light">
-                <i class="bi bi-chevron-left"></i>
-            </button>
-                <button class="btn btn-light mx-3">Air Conditioning</button>
-                <button class="btn btn-light mx-3">Washing Machine & Drays</button>
-                <button class="btn btn-success mx-3">Television</button>
-                <button class="btn btn-light mx-3">Air Conditioning</button>
-                <button class="btn btn-light mx-3">Washing Machine & Drays</button>
-                <button class="arrowEnd  btn btn-light">
-                <i class="bi bi-chevron-right"></i>
-            </button>
+    <!--Start Slider Button -->
+    <section id="sliderButton">
+        <div class="container">
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto justify-content-center">
+                    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col sliderCol">
+                                    <button class="btn btn-success">Television</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class=" col sliderCol">
+                                    <button class="btn  btn-light">Air Conditioning</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col sliderCol">
+                                    <button class="btn  btn-light">Washing Machine & Drays</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col sliderCol">
+                                    <button class="btn  btn-light">Air Conditioning</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col sliderCol">
+                                    <button class="btn btn-light">Washing Machine & Drays</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col sliderCol">
+                                    <button class="btn btn-light">Kitchen Application</button>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev bg-transparent w-aut arowRight" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut arowLeft" href="#recipeCarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
+
+
     </section>
-    <!--Nav Button-->
+    <!--End Slider Button-->
     <!--Main Product-->
     <main class="mx-5">
         <div class="container">
