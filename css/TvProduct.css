@@ -16,11 +16,90 @@ body {
     margin-left: 100px !important;
 }
 
-.card img {
+.container .card {
+    position: relative;
+}
+
+.container .card .tickt {
+    position: absolute;
+    margin-left: 700px !important;
+}
+
+.card .tickt {
+    max-width: 50px !important;
+}
+
+.cardP img {
     max-width: 300px;
 }
 
+
+/*Line through*/
+
+.strikethrough {
+    position: relative;
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 50%;
+    right: 0;
+    width: 100px;
+    border-top: 1px solid red !important;
+    border-color: inherit;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.driver {
+    border-top: 1px solid #EEE;
+}
+
+.lightButton {
+    background-color: #EEE !important;
+    border-radius: 10px !important;
+}
+
+.lightButton a {
+    color: #113265 !important;
+}
+
+
+/*Card Container*/
+
 @media (max-width: 575.98px) {
+    .strikethrough:before {
+        position: absolute;
+        content: "";
+        left: 30%;
+        bottom: 50%;
+        right: 0;
+        width: 100px;
+        border-top: 1px solid red !important;
+        border-color: inherit;
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    .container .card .tickt {
+        position: absolute;
+        margin-left: 220px !important;
+    }
+    main .container .row .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .colMobileCard .row {
+        display: flex;
+        flex-direction: column !important;
+    }
     button {
         margin-bottom: 10px !important;
     }
@@ -30,6 +109,9 @@ body {
     .card .TVHeading {
         font-size: 16px !important;
     }
+    .card .tickt {
+        max-width: 30px !important;
+    }
     .card h4 {
         font-size: 16px;
     }
@@ -37,8 +119,7 @@ body {
         font-size: 14px;
     }
     .cardP {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: contents !important;
         text-align: center;
     }
     .cardP img {
@@ -64,6 +145,12 @@ body {
     }
     .navF {
         width: 100%;
+    }
+    .driver {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
     }
 }
 
