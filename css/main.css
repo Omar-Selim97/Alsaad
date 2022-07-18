@@ -119,6 +119,9 @@ html {
 /*Select Menu*/
 
 
+/*search Bar*/
+
+
 /*Media for Mobile*/
 
 @media (min-width: 767.98px)and (max-width: 991px) {
@@ -188,11 +191,14 @@ html {
 
 @media (min-width: 767.98px)and (max-width: 991px) {
     .LOGO {
-        margin-left: 200px !important;
+        margin-left: 120px !important;
     }
     .LOGO img {
         max-width: 140px !important;
         padding: 5%;
+    }
+    #cover {
+        margin-top: 25% !important;
     }
 }
 
@@ -222,10 +228,20 @@ html {
         margin-top: 5px;
     }
     .LOGOMobile img {
-        max-width: 100px !important;
+        max-width: 130px !important;
     }
     .LOGOAll .LOGO {
         display: none !important;
+    }
+    .icomMobile {
+        margin-top: 2%;
+    }
+    .colSearch {
+        width: 100% !important;
+        margin-top: 5%;
+    }
+    .colSearch input {
+        width: 70%;
     }
 }
 
@@ -298,28 +314,6 @@ html {
 
 /* ============ desktop view ============ */
 
-@media all and (min-width: 992px) {
-    .dropdown-menu li {
-        position: relative;
-    }
-    .nav-item .submenu {
-        display: none;
-        position: absolute;
-        left: 100%;
-        top: -7px;
-    }
-    .nav-item .submenu-left {
-        right: 100%;
-        left: auto;
-    }
-    .dropdown-menu>li:hover {
-        background-color: #f1f1f1
-    }
-    .dropdown-menu>li:hover>.submenu {
-        display: block;
-    }
-}
-
 @media(max-width:767px) {
     .nav2 navbar-nav {
         display: flex;
@@ -331,35 +325,30 @@ html {
 }
 
 
-/* ============ desktop view .end// ============ */
-
-
-/* ============ small devices ============ */
-
-@media (max-width: 991px) {
-    .dropdown-menu .dropdown-menu {
-        margin-left: 0.7rem;
-        margin-right: 0.7rem;
-        margin-bottom: .5rem;
-    }
-}
-
-
-/* ============ small devices .end// ============ */
-
-
 /*End Header*/
 
 
 /*Landing Page*/
 
 #cover {
-    margin-top: 145px !important;
+    margin-top: 13% !important;
 }
 
 @media (max-width: 567px) {
     #carouselExampleControls {
-        margin-top: 280px;
+        margin-top: 75%;
+    }
+    #carouselExampleControls img {
+        height: 30vh !important;
+    }
+}
+
+@media (min-width: 767.98px)and (max-width: 991px) {
+    #cover {
+        margin-top: 23% !important;
+    }
+    #carouselExampleControls img {
+        height: 35vh !important;
     }
 }
 
@@ -395,15 +384,6 @@ html {
 
 
 /*Xs*/
-
-@media (max-width: 575.98px) {
-    .services .card img {
-        max-width: 120px;
-        min-width: 118px;
-        min-height: 200px;
-        max-height: 201px;
-    }
-}
 
 @media (min-width: 576px) and (max-width: 767px) {
     .services .card img {

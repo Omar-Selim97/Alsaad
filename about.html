@@ -199,31 +199,29 @@
     <!--Start About Us -->
     <section id="about">
         <div class="container">
-            <div class="container pt-5">
-                <div class="row  d-flex justify-content-center">
-                    <div class="col-md-5 p-4 border">
-
-                        <h2>Redirect page dependent dropdown</h2>
-
-                        <form name="myform" id="myForm">
-                            <select class="form-select" id="category_sel" size="1">
-                               <option value="" selected="selected">-- Select category --</option>
-                           </select>
-                            <br>
-                            <br>
-
-                            <select class="form-select" id="topic_sel" size="1">
-                               <option value="" selected="selected">-- Select Blog --</option>
-                           </select>
-                            <br>
-                            <br>
-
-                            <button type="button" id="filter_s" class="btn btn-primary">Search</button>
-
-                        </form>
-                    </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <button class="btn btn-info">Hello alsaad</button>
+                    </div>
+                    <div class="carousel-item">
+                        <button class="btn btn-info">but alsaad</button> </div>
+                    <div class="carousel-item">
+                        <button class="btn btn-info">Hello alsaad</button> </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
 
