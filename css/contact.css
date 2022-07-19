@@ -1,5 +1,6 @@
 main h1 {
     margin-top: 230px !important;
+    color: #0e2b58 !important;
 }
 
 main .store {
@@ -21,7 +22,7 @@ main .store {
     bottom: -2px;
     left: 0;
     right: 0;
-    width: 14%;
+    width: 15%;
     background: #666;
     height: 2px;
     /* optional animation */
@@ -34,11 +35,16 @@ main .store {
 
 .contact:hover:after {
     width: 18%;
-    background: orange;
+    background: rgb(43, 161, 43);
 }
 
 .contact .contcatText {
     color: green;
+}
+
+.social {
+    display: flex;
+    justify-content: end;
 }
 
 
@@ -114,7 +120,7 @@ main .store {
 
 @media (max-width: 575.98px) {
     main h1 {
-        margin-top: 290px !important;
+        margin-top: 250px !important;
         font-size: 16px;
         font-weight: bold;
     }
@@ -134,9 +140,76 @@ main .store {
         padding: 10px;
         background-color: #EEE !important;
     }
+    .contactTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        width: 74% !important;
+        background: #666;
+        height: 2px;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+    .contact::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        width: 65%;
+        background: #666;
+        height: 2px;
+        /* optional animation */
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+}
 
 
 /*End small screen*/
+
+@media (min-width: 767.98px)and (max-width: 991px) {
+    .contact::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        width: 35%;
+        background: #666;
+        height: 2px;
+        /* optional animation */
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+}

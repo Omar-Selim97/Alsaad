@@ -531,7 +531,17 @@ html {
     -moz-appearance: none;
     appearance: none;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    margin-left: 150px;
+}
+
+.subscribe .input-group {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+@media (max-width: 567px) {
+    .subscribe .input-group .form-control {
+        width: 30%;
+    }
 }
 
 form-control:focus {
@@ -558,6 +568,9 @@ form-control:focus {
     background-color: #4926f9;
     border-color: #7326f9;
 }
+
+
+/*End Subscribe*/
 
 
 /*Footer*/
