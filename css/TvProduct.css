@@ -1,0 +1,210 @@
+#navButton {
+    margin-top: 180px !important;
+}
+
+body {
+    background-color: #EEE !important;
+}
+
+.TopHeading {
+    color: rgb(5, 5, 77);
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+#otherProduct h3 {
+    margin-left: 100px !important;
+}
+
+.container .card {
+    position: relative;
+}
+
+.container .card .tickt {
+    position: absolute;
+    margin-left: 700px !important;
+}
+
+.card .tickt {
+    max-width: 50px !important;
+}
+
+.cardP img {
+    max-width: 300px;
+}
+
+
+/*Line through*/
+
+.strikethrough {
+    position: relative;
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 50%;
+    right: 0;
+    width: 100px;
+    border-top: 1px solid red !important;
+    border-color: inherit;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.driver {
+    border-top: 1px solid #EEE;
+}
+
+.lightButton {
+    background-color: #EEE !important;
+    border-radius: 10px !important;
+}
+
+.lightButton a {
+    color: #113265 !important;
+}
+
+
+/*Card Container*/
+
+@media (max-width: 575.98px) {
+    .strikethrough:before {
+        position: absolute;
+        content: "";
+        left: 30%;
+        bottom: 50%;
+        right: 0;
+        width: 100px;
+        border-top: 1px solid red !important;
+        border-color: inherit;
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    .container .card .tickt {
+        position: absolute;
+        margin-left: 220px !important;
+    }
+    main .container .row .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .colMobileCard .row {
+        display: flex;
+        flex-direction: column !important;
+    }
+    button {
+        margin-bottom: 10px !important;
+    }
+    .card img {
+        max-width: 200px;
+    }
+    .card .TVHeading {
+        font-size: 16px !important;
+    }
+    .card .tickt {
+        max-width: 30px !important;
+    }
+    .card h4 {
+        font-size: 16px;
+    }
+    .card h5 {
+        font-size: 14px;
+    }
+    .cardP {
+        display: contents !important;
+        text-align: center;
+    }
+    .cardP img {
+        max-width: 150px;
+    }
+    .card {
+        padding: 10px;
+        margin: 5px;
+    }
+    .allButton {
+        display: none !important;
+    }
+    #navButton .ButtonContent {
+        display: flex;
+        flex-direction: column;
+    }
+    #navButton {
+        margin-top: 280px !important;
+    }
+    #navButton button {
+        margin: 10px;
+        max-width: 180px;
+    }
+    .navF {
+        width: 100%;
+    }
+    .driver {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+/*Small&Meduim Screen */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #navButton .ButtonContent {
+        display: flex;
+        flex-direction: column;
+    }
+    .navF {
+        width: 100%;
+    }
+    .container .card .tickt {
+        position: absolute;
+        margin-left: 260px !important;
+    }
+    .arrowStart,
+    .arrowEnd {
+        display: none !important;
+    }
+    #navButton button {
+        margin: 10px;
+        max-width: 100px;
+    }
+    #navButton {
+        margin-top: 250px !important;
+    }
+    .navF {
+        width: 100%;
+    }
+}
+
+
+/*End small screen*/
+
+
+/*Medium Screen*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container .card .tickt {
+        position: absolute;
+        margin-left: 320px !important;
+    }
+    .navF {
+        width: 100%;
+    }
+    #navButton button {
+        margin: 10px;
+        max-width: 100px;
+    }
+    .card {
+        padding: 10px;
+        margin: 5px;
+    }
+}
