@@ -224,3 +224,47 @@ body {
         max-width: 100px;
     }
 }
+
+
+/*Accod Button */
+
+.accordion-item h2 {
+    padding-left: 0 !important;
+}
+
+.smallScreen {
+    display: none;
+}
+
+.LargeScreenFilter {
+    display: block;
+}
+
+@media (max-width: 575.98px) {
+    .smallScreen {
+        display: block !important;
+    }
+    .LargeScreenFilter {
+        display: none;
+    }
+    .accordion-item {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .smallScreen {
+        display: block !important;
+    }
+    .LargeScreenFilter {
+        display: none;
+    }
+    .accordion-item {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+
+/*End Acco Style*/
