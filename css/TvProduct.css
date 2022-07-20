@@ -22,7 +22,7 @@ body {
 
 .container .card .tickt {
     position: absolute;
-    margin-left: 700px !important;
+    margin-left: 85% !important;
 }
 
 .card .tickt {
@@ -90,7 +90,7 @@ body {
     }
     .container .card .tickt {
         position: absolute;
-        margin-left: 220px !important;
+        margin-left: 90% !important;
     }
     main .container .row .container {
         padding-left: 0;
@@ -104,7 +104,7 @@ body {
         margin-bottom: 10px !important;
     }
     .card img {
-        max-width: 200px;
+        max-width: 80% !important;
     }
     .card .TVHeading {
         font-size: 16px !important;
@@ -132,17 +132,6 @@ body {
     .allButton {
         display: none !important;
     }
-    #navButton .ButtonContent {
-        display: flex;
-        flex-direction: column;
-    }
-    #navButton {
-        margin-top: 280px !important;
-    }
-    #navButton button {
-        margin: 10px;
-        max-width: 180px;
-    }
     .navF {
         width: 100%;
     }
@@ -151,6 +140,9 @@ body {
         flex-direction: column;
         text-align: center;
         margin: auto;
+    }
+    .driver button {
+        margin-top: 2%;
     }
 }
 
@@ -167,7 +159,7 @@ body {
     }
     .container .card .tickt {
         position: absolute;
-        margin-left: 260px !important;
+        margin-left: 85% !important;
     }
     .arrowStart,
     .arrowEnd {
@@ -194,7 +186,7 @@ body {
 @media (min-width: 768px) and (max-width: 991.98px) {
     .container .card .tickt {
         position: absolute;
-        margin-left: 320px !important;
+        margin-left: 85% !important;
     }
     .navF {
         width: 100%;

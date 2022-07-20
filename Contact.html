@@ -22,158 +22,144 @@
     </head>
 
     <body>
-        <!--Header-->
-        <header class="fixed-top mb-5">
-            <!--1st Nav-->
-            <nav class="navbar navF navbar-expand-lg  navbar-light bg-light">
-                <div class="container navMobile">
-                    <ul class="navbar-nav navIcon col-md-4 col-sm-4 d-flex flex-row  d-flex justify-content-start">
+
+        <!--Start Header-->
+        <header class="fixed-top">
+            <!--TopNav-->
+            <nav class="navbar navst navbar-expand-lg navbar-light   ">
+                <div class="container ">
+
+                    <div class="navbar-nav col-sm-12 col-md-12 col-lg-2">
                         <!-- Icons -->
-                        <li class="nav-item icomMobile me-3 me-lg-0">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <img src="img/icons/cart.jpg" alt="">
                             </a>
                         </li>
-                        <li class="nav-item icomMobile me-3 me-lg-0">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <img src="img/icons/person 1.jpg" alt="">
                             </a>
                         </li>
-                        <li class="nav-item icomMobile me-3 me-lg-0">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <img src="img/icons/En.jpg" alt="">
                             </a>
                         </li>
-                        <li class="nav-item LOGOMobile">
-                            <img style="max-width:100px ;" src="img/logo.png" />
+                        <li class="nav-item mobileLOGO">
+                            <a href="index.html" class="navbar-brand col-sm-6 col-md-2 d-flex justify-content-end">
+                                <img src="img/logo.png" alt="">
+                            </a>
                         </li>
-
-
-                    </ul>
-                    <!-- SEARCH BAR -->
-                    <div class="col-md-4 col-sm-4 colSearch">
-                        <div class="header-search">
-                            <form>
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                          All
-                        </button>
-                                    <ul class="dropdown-menu">
-                                        <li class="d-flex">
-                                            <a class="dropdown-item text-success" href="#">Shop by Categoery</a>
-                                            <i class="bi bi-chevron-down text-success p-2"></i>
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li class="d-flex">
-
-                                            <a class="dropdown-item" href="#">Air condition</a>
-                                            <i class="bi bi-chevron-right p-2  text-secondary"></i>
-                                        </li>
-
-                                        <li>
-
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li class="d-flex"><a class="dropdown-item" href="Telev.html">Televesion</a>
-                                            <i class="bi bi-chevron-right p-2 text-secondary"></i>
-
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li class="d-flex">
-                                            <a class="dropdown-item" href="#">Languages</a>
-                                            <i class="bi bi-chevron-right p-2 text-secondary"></i>
-
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li class="d-flex">
-                                            <a class="dropdown-item text-success" href="#">العربية</a>
-                                            <i class="bi bi-chevron-right p-2 text-secondary"></i>
-
-                                        </li>
-                                    </ul>
-                                </div>
-                                <input type="text" name="" class="input" placeholder="  What are you looking for ?">
-                                <img src="img/icons/search.jpg" style="max-width: 30px;" alt="">
-                            </form>
-                        </div>
+                        <!-- End Icons-->
                     </div>
-                    <!-- /SEARCH BAR -->
+                    <!--Large Screen Search Bar-->
+                    <form class="d-flex col-md-12 col-lg-8 LargeSearch ">
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                        <option value="0">Select car:</option>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3">Citroen</option>
+                                        <option value="4">Ford</option>
+                                        <option value="5">Honda</option>
+                                        <option value="6">Jaguar</option>
+                                        <option value="7">Land Rover</option>
+                                        <option value="8">Mercedes</option>
+                                        <option value="9">Mini</option>
+                                        <option value="10">Nissan</option>
+                                        <option value="11">Toyota</option>
+                                        <option value="12">Volvo</option>
+                            </select>
+                        </div>
 
-                    <ul class="d-flex LOGOAll  d-flex justify-content-end navbar-nav col-sm-4 col-md-4">
-                        <li class="nav-item LOGO">
-                            <img style="max-width:100px ;" src="img/logo.png" />
-                        </li>
-                    </ul>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                        </div>
+                    </form>
+                    <!--End Large Screen Search Bar-->
+
+                    <a href="index.html" class="navbar-brand LOGOLarge col-sm-6 col-lg-2 d-flex justify-content-end">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <!--Small Screen Search Bar-->
+                    <form class="d-flex col-md-12 col-lg-8 col-sm-12  smallSearch">
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                        <option value="0">Select car:</option>
+                                        <option value="1">Audi</option>
+                                        <option value="2">BMW</option>
+                                        <option value="3">Citroen</option>
+                                        <option value="4">Ford</option>
+                                        <option value="5">Honda</option>
+                                        <option value="6">Jaguar</option>
+                                        <option value="7">Land Rover</option>
+                                        <option value="8">Mercedes</option>
+                                        <option value="9">Mini</option>
+                                        <option value="10">Nissan</option>
+                                        <option value="11">Toyota</option>
+                                        <option value="12">Volvo</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                        </div>
+                    </form>
+                    <!--End Small Screen Search Bar-->
                 </div>
             </nav>
-            <!--End 1st Nav-->
-            <!--Second Nav-->
-            <nav class="navbar  navbar-expand-lg navbar-light text-white nav2 " style="background-color:#5ba660">
-                <div class="container">
+            <!--End Topnav-->
+            <!--2st Navbar -->
+            <nav class="navbar baseNav navbar-expand-lg navbar-light ">
+                <div class="container ">
+                    <ul class="d-flex sideNavContent col-sm-10 justify-content-start flex-md-row">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-                    <div class="col-sm-6" id="main_nav">
-                        <ul class="navbar-nav">
-                            <div class="nav-item">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-transperant pb-2 text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                          All
-                        </button>
-                                    <ul class="dropdown-menu">
-                                        <li class="d-flex">
-                                            <a class="dropdown-item text-success" href="#">Shop by Categoery</a>
-                                            <i class="bi bi-chevron-down text-success p-2"></i>
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li class="d-flex">
 
-                                            <a class="dropdown-item" href="#">Air condition</a>
-                                            <i class="bi bi-chevron-right p-2  text-secondary"></i>
-                                        </li>
+                            <li class="d-flex justify-content-between align-content-center">
+                                <a class="d-flex " href="#">Shop by Categoery
+                                 
+                                </a>
+                                <i class="bi bi-chevron-down text-success p-3"></i>
 
-                                        <li>
+                            </li>
+                            <li class="d-flex justify-content-between align-content-center">
+                                <a class="d-flex justify-content-evenly" href="#">Air condition</a>
+                                <i class="bi bi-chevron-right  p-3 text-secondary"></i>
 
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li class="d-flex"><a class="dropdown-item" href="Telev.html">Televesion</a>
-                                            <i class="bi bi-chevron-right p-2 text-secondary"></i>
 
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li class="d-flex">
-                                            <a class="dropdown-item" href="#">Languages</a>
-                                            <i class="bi bi-chevron-right p-2 text-secondary"></i>
+                            </li>
+                            <li class="d-flex  justify-content-between align-content-center">
+                                <a href="Telev.html">Televesion</a>
+                                <i class="bi bi-chevron-right p-3 text-secondary"></i>
 
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li class="d-flex">
-                                            <a class="dropdown-item text-success" href="#">العربية</a>
-                                            <i class="bi bi-chevron-right p-2 text-secondary"></i>
+                            </li>
+                            <li class="d-flex  justify-content-between align-content-center">
+                                <a class="#" href="#">Languages</a>
+                                <i class="bi bi-chevron-right p-3 text-secondary"></i>
 
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            </li>
+                            <li class="d-flex  justify-content-between align-content-center">
+                                <a href="#">العربية</a>
+                                <i class="bi bi-chevron-right p-3 text-secondary"></i>
 
+                            </li>
+                        </div>
+
+
+                        <span class="MenuLarge" style="font-size:25px;margin-top:.75%;cursor:pointer;; color:#fff;" onclick="openNav()">&#9776; All</span>
+                        <div class="navDep">
                             <li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
                             <li class="nav-item"><a class="nav-link" href="Special.html"> Specials Deals </a></li>
                             <li class="nav-item"><a class="nav-link" href="about.html"> About Us </a></li>
                             <li class="nav-item"><a class="nav-link" href="Contact.html"> Contact Us </a></li>
-                        </ul>
-                    </div>
-                    <!-- navbar-collapse.// -->
-                    <ul class="d-flex navIcon col-sm-6 d-flex justify-content-end navbar-nav">
+                        </div>
+                    </ul>
+                    <ul class="d-flex navIcon col-sm-2 d-flex justify-content-end navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="/">
                                 <img src="img/icons/fs1.jpg" />
@@ -189,11 +175,14 @@
                                 <img src="img/icons/ws.jpg" />
                             </a>
                         </li>
+                        <div class="nav-item menuMob">
+                            <span style="font-size:30px;cursor:pointer ; color:#fff;" onclick="openNav()">&#9776; </span>
+                        </div>
                     </ul>
 
                 </div>
             </nav>
-
+            <!--End 2st Navbar -->
         </header>
         <!--End Header-->
         <!--Form Heading-->
@@ -310,19 +299,18 @@
     <!--End Bottom Footer-->
     <div class="footer-2 bg-dark text-white">
         <div class="container">
-            <div class="d-flex justify-content-evenly">
-                <div class="d-flex justify-content-center copyText">copyright &copy; alsaadtradingsa.com All rights reserved.
+            <div class="row  footerContent">
+                <div class="col-sm-6">
+                    <p class="copyText">
+                        copyright &copy; alsaadtradingsa.com All rights reserved.
+                    </p>
                 </div>
-                <div class="d-flex justify-content-end">
+                <div class="col-sm-6 logoFoot d-flex justify-content-end">
                     <img class="bottomLogo  " src="img/bottomLogo.png" alt="">
                 </div>
-
             </div>
-
         </div>
 
-
-    </div>
     </div>
 
 

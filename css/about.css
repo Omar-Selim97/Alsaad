@@ -1,5 +1,460 @@
 /*Top Navbar*/
 
-.navbar-brand img {
-    max-width: 150px !important;
+.navst {
+    background-color: #EEE !important;
 }
+
+.navst .navbar-brand img {
+    max-width: 80% !important;
+}
+
+
+/*Search bar*/
+
+.navst form .btn-secondary {
+    color: #171e8c;
+    background-color: #DDD;
+    border-color: transparent;
+}
+
+.navst .LOGOMobile {
+    display: none !important;
+}
+
+.navst .mobileLOGO {
+    display: none !important;
+}
+
+
+/*Nav Icons*/
+
+.navbar-nav .nav-item img {
+    max-width: 70%;
+    border-radius: 50%;
+}
+
+
+/*Customs Select options*/
+
+
+/* The container must be positioned relative: */
+
+.navst .custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.navst .custom-select select {
+    display: none;
+    /*hide original SELECT element: */
+}
+
+.navst .select-selected {
+    background-color: #DDD;
+    color: rgb(53, 205, 50) !important;
+}
+
+
+/* Style the arrow inside the select element: */
+
+.navst .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+
+/* Point the arrow upwards when the select box is open (active): */
+
+.navst .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+
+/* style the items (options), including the selected item: */
+
+.select-items div,
+.select-selected {
+    color: #1b3f78 !important;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+
+
+/* Style items (options): */
+
+.navst .select-items {
+    position: absolute;
+    background-color: #EEE;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+
+/* Hide the items when the select box is closed: */
+
+.navst .select-hide {
+    display: none;
+}
+
+.navst .select-items div:hover,
+.navst .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/*End Select options*/
+
+
+/*Top Nav Screen Style*/
+
+.navst .container .smallSearch {
+    display: none !important;
+}
+
+
+/*Small Screen*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navst .container .LargeSearch {
+        display: none !important;
+    }
+    .navst .container .smallSearch {
+        display: block !important;
+    }
+    .navst .container .LOGOMobile {
+        display: block !important;
+    }
+    .navst .container .LOGOLarge {
+        display: none !important;
+    }
+    .navst .container .smallSearch {
+        display: block !important;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .navst .container .navbar-brand {
+        width: 100% !important;
+    }
+    .navst .container .navbar-brand img {
+        max-width: 100% !important;
+        border-radius: 0 !important;
+    }
+    .navst .container .navbar-nav .nav-item img {
+        max-width: 40%;
+        border-radius: 50%;
+    }
+    .navst .container .navbar-nav {
+        margin-bottom: 2%;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .navst .mobileLOGO {
+        display: block !important;
+    }
+}
+
+
+/*End Small*/
+
+
+/*Xs*/
+
+@media (max-width: 575px) {
+    .navst .container .LargeSearch {
+        display: none !important;
+    }
+    .navst .container .smallSearch {
+        display: block !important;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .navst .container .navbar-brand img {
+        max-width: 100% !important;
+        border-radius: 0 !important;
+    }
+    .navst .container .navbar-nav .nav-item img {
+        max-width: 40%;
+        border-radius: 50%;
+    }
+    .navst .container .navbar-nav {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .navst .container .LOGOMobile {
+        display: block !important;
+    }
+    .navst .container .LOGOLarge {
+        display: none !important;
+    }
+    .navst .container .navbar-nav {
+        margin-bottom: 5%;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .navst .container .navbar-brand {
+        width: 100% !important;
+    }
+    .navst .mobileLOGO {
+        display: block !important;
+    }
+}
+
+
+/*End Xs*/
+
+
+/*Tab Screen*/
+
+@media (min-width: 767.98px)and (max-width: 991px) {
+    .navst .container .LargeSearch {
+        display: none !important;
+    }
+    .navst .container .smallSearch {
+        display: block !important;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .navst .container .navbar-brand img {
+        max-width: 100% !important;
+        border-radius: 0 !important;
+    }
+    .navst .container .navbar-nav .nav-item img {
+        max-width: 30%;
+        border-radius: 50%;
+    }
+    .navst .container .navbar-nav {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .navst .container .LOGOMobile {
+        display: block !important;
+    }
+    .navst .container .LOGOLarge {
+        display: none !important;
+    }
+    .navst .container .navbar-nav {
+        margin-bottom: 5%;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .navst .container .navbar-brand {
+        width: 100% !important;
+    }
+    .navst .mobileLOGO {
+        display: block !important;
+    }
+}
+
+
+/*End Tab*/
+
+
+/*Large Screen*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/*End Top Nav Screen Style*/
+
+
+/*Base Navbar*/
+
+.baseNav .navbar-nav li a {
+    color: white !important;
+}
+
+.baseNav {
+    background-color: #5ba660 !important;
+}
+
+.baseNav .nav-item .nav-link img {
+    max-width: 70%;
+}
+
+.baseNav .navIcon {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.baseNav .dropdown-menu {
+    background-color: #EEE;
+}
+
+.baseNav .dropdown-menu li a {
+    color: rgb(23, 13, 58) !important;
+}
+
+.baseNav .menuMob {
+    display: none;
+}
+
+.baseNav .buttonIPad {
+    display: block;
+}
+
+
+/*Navbar Dep */
+
+.navDep .nav-item {
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.navDep .nav-item a {
+    color: #fff !important;
+    font-size: 22px;
+}
+
+.navDep .nav-item a:hover {
+    color: #EEE !important;
+    transition: 0.3s;
+}
+
+.navDep {
+    display: flex !important;
+    flex-direction: row;
+}
+
+
+/*End Navbar*/
+
+
+/*side Navbar*/
+
+.baseNav .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #EEE;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.baseNav .sidenav a {
+    padding: 6px 6px 6px 24px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #171e8c !important;
+    display: block;
+    transition: 0.3s;
+}
+
+.baseNav .sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.baseNav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .baseNav .sidenav {
+        padding-top: 15px;
+    }
+    .baseNav .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/*Xs*/
+
+@media (max-width: 575px) {
+    .baseNav .nav-item .nav-link img {
+        max-width: 30%;
+    }
+    .baseNav .menuMob {
+        display: block !important;
+    }
+    .baseNav .buttonIPad {
+        display: none;
+    }
+    .offcanvas {
+        background-color: #EEE !important;
+    }
+    .offcanvas .nav-item .nav-link {
+        color: #171e8c !important;
+    }
+    .navDep {
+        display: none !important;
+    }
+    .MenuLarge {
+        display: none !important;
+    }
+}
+
+
+/*End Xs*/
+
+
+/*Small Screen*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navDep {
+        display: none !important;
+    }
+    .MenuLarge {
+        display: block !important;
+        margin-top: 3%;
+    }
+    .baseNav .navIcon img {
+        max-width: 90% !important;
+    }
+}
+
+
+/*Tab Screen*/
+
+@media (min-width: 767.98px)and (max-width: 991px) {
+    .baseNav .navIcon img {
+        max-width: 90% !important;
+    }
+    .sideNavContent {
+        margin-top: 3%;
+    }
+    .navDep .nav-item a {
+        color: #fff !important;
+        font-size: 18px;
+    }
+}
+
+
+/*End Tap Screen*/
+
+
+/*Large Screen*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .baseNav .navIcon img {
+        max-width: 90% !important;
+    }
+    .sideNavContent {
+        margin-top: 2%;
+    }
+}
+
+
+/*End Large Screen*/
+
+
+/*End Base Navbar*/
+/*End Header*/

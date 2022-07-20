@@ -1,7 +1,3 @@
-#navButton {
-    margin-top: 15% !important;
-}
-
 body {
     background-color: #EEE !important;
 }
@@ -30,7 +26,7 @@ body {
 
 .container .card .tickt {
     position: absolute;
-    margin-left: 700px !important;
+    margin-left: 75% !important;
 }
 
 .product img {
@@ -103,6 +99,9 @@ body {
 }
 
 
+/*End Card Product*/
+
+
 /*Xs*/
 
 @media (max-width: 575.98px) {
@@ -133,28 +132,17 @@ body {
     }
     .container .card .tickt {
         position: absolute;
-        margin-left: 220px !important;
+        margin-left: 80% !important;
     }
     .product img {
-        max-width: 120px;
+        max-width: 250px;
     }
     .card .tickt {
         max-width: 30px !important;
     }
-    #navButton .ButtonContent {
-        display: flex;
-        flex-direction: column;
-    }
-    #navButton {
-        margin-top: 75% !important;
-    }
     .arrowStart,
     .arrowEnd {
         display: none !important;
-    }
-    #navButton button {
-        margin: 10px;
-        max-width: 180px;
     }
     .card .TVHeading {
         font-size: 16px !important;
@@ -181,27 +169,19 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    #navButton .ButtonContent {
-        display: flex;
-        flex-direction: column;
-    }
     .container .card .tickt {
         position: absolute;
-        margin-left: 260px !important;
+        margin-left: 90% !important;
     }
     .arrowStart,
     .arrowEnd {
         display: none !important;
     }
-    #navButton button {
-        margin: 10px;
-        max-width: 100px;
-    }
-    #navButton {
-        margin-top: 250px !important;
-    }
     .navF {
         width: 100%;
+    }
+    .driver button {
+        margin-top: 2%;
     }
 }
 
@@ -214,14 +194,13 @@ body {
 @media (min-width: 768px) and (max-width: 991.98px) {
     .container .card .tickt {
         position: absolute;
-        margin-left: 320px !important;
+        margin-left: 85% !important;
     }
     .navF {
         width: 100%;
     }
-    #navButton button {
-        margin: 10px;
-        max-width: 100px;
+    .driver button {
+        margin-top: 2%;
     }
 }
 
@@ -261,8 +240,11 @@ body {
         display: none;
     }
     .accordion-item {
-        width: 85%;
+        width: 85% !important;
         margin: auto;
+    }
+    .accoSmall {
+        width: 100% !important;
     }
 }
 

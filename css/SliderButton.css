@@ -1,5 +1,5 @@
 #sliderButton {
-    margin-top: 260px !important;
+    margin-top: 15% !important;
 }
 
 @media (max-width: 767px) {
@@ -8,6 +8,15 @@
     }
     #sliderButton .carousel-inner .carousel-item>div:first-child {
         display: block;
+    }
+}
+
+
+/*Large Screen*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #sliderButton {
+        margin-top: 20% !important;
     }
 }
 
@@ -38,14 +47,21 @@
 
 .arowRight span,
 .arowLeft span {
-    background-color: #4f6486 !important;
+    background-color: #2ca550 !important;
     border-radius: 50%;
     color: #fff !important;
-    padding: 5%;
+    margin-top: 1%;
+}
+
+@media (min-width:992px) {
+    .arowRight,
+    .arowLeft {
+        display: contents !important;
+    }
 }
 
 #sliderButton .carousel-item .sliderCol {
-    width: 25% !important;
+    width: 25%
 }
 
 #sliderButton .carousel-item .sliderCol button {
@@ -56,16 +72,31 @@
     #sliderButton .carousel-item .sliderCol {
         width: 50% !important;
     }
+    #sliderButton {
+        margin-top: 65% !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     #sliderButton .carousel-item .sliderCol {
-        width: 50% !important;
+        width: 40% !important;
+    }
+    #sliderButton {
+        margin-top: 40% !important;
+    }
+    #sliderButton .carousel-inner .carousel-item>div {
+        display: none;
+    }
+    #sliderButton .carousel-inner .carousel-item>div:first-child {
+        display: block;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     #sliderButton .carousel-item .sliderCol {
         width: 50% !important;
+    }
+    #sliderButton {
+        margin-top: 40% !important;
     }
 }
