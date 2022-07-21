@@ -483,7 +483,7 @@ html {
 
 @media (min-width: 767.98px)and (max-width: 991px) {
     #cover {
-        margin-top: 25% !important;
+        margin-top: 50% !important;
     }
 }
 
@@ -493,7 +493,7 @@ html {
 
 @media (max-width: 567px) {
     #carouselExampleControls {
-        margin-top: 75%;
+        margin-top: 60%;
     }
     #carouselExampleControls img {
         height: 30vh !important;
@@ -502,7 +502,7 @@ html {
 
 @media (min-width: 767.98px)and (max-width: 991px) {
     #cover {
-        margin-top: 23% !important;
+        margin-top: 25% !important;
     }
     #carouselExampleControls img {
         height: 35vh !important;
