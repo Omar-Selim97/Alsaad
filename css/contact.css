@@ -119,14 +119,14 @@
         }
         .form input,
         .form textarea {
-            width: 250px;
+            width: 280px;
             padding: 10px;
         }
         .sub .btn-hover {
-            width: 250px;
+            width: 280px;
         }
         .form-select {
-            max-width: 250px !important;
+            max-width: 280px !important;
             padding: 10px;
             background-color: #EEE !important;
         }
