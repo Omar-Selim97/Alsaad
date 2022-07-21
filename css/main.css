@@ -698,9 +698,9 @@ html {
     height: 50px;
     right: 10px;
     font-size: 17px;
-    background-image: linear-gradient(to right, #533eda, #1d619d);
+    background-color: #2B5278;
     border-color: #265bf9;
-    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+    box-shadow: 0 4px 15px 0 #27CE8B;
     border-top-right-radius: 28px !important;
     border-bottom-right-radius: 28px !important;
     border-bottom-left-radius: 28px !important;

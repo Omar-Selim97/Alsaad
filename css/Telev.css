@@ -26,7 +26,11 @@ body {
 
 .container .card .tickt {
     position: absolute;
-    margin-left: 75% !important;
+    right: 3%
+}
+
+.container .card .card-header {
+    padding-right: 10%;
 }
 
 .product img {
@@ -132,7 +136,7 @@ body {
     }
     .container .card .tickt {
         position: absolute;
-        margin-left: 80% !important;
+        right: 3%;
     }
     .product img {
         max-width: 250px;
@@ -171,7 +175,7 @@ body {
 @media (min-width: 576px) and (max-width: 767px) {
     .container .card .tickt {
         position: absolute;
-        margin-left: 90% !important;
+        right: 3%;
     }
     .arrowStart,
     .arrowEnd {

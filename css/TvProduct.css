@@ -22,7 +22,11 @@ body {
 
 .container .card .tickt {
     position: absolute;
-    margin-left: 85% !important;
+    right: 3%;
+}
+
+.container .card .card-header {
+    padding-right: 10%;
 }
 
 .card .tickt {
@@ -87,10 +91,6 @@ body {
         -ms-transform: rotate(-5deg);
         -o-transform: rotate(-5deg);
         transform: rotate(-5deg);
-    }
-    .container .card .tickt {
-        position: absolute;
-        margin-left: 90% !important;
     }
     main .container .row .container {
         padding-left: 0;
@@ -157,10 +157,6 @@ body {
     .navF {
         width: 100%;
     }
-    .container .card .tickt {
-        position: absolute;
-        margin-left: 85% !important;
-    }
     .arrowStart,
     .arrowEnd {
         display: none !important;
@@ -184,10 +180,6 @@ body {
 /*Medium Screen*/
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .container .card .tickt {
-        position: absolute;
-        margin-left: 85% !important;
-    }
     .navF {
         width: 100%;
     }

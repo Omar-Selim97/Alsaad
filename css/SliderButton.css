@@ -26,6 +26,26 @@
     display: flex;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3% !important;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
 
 /* medium and up screens */
 
@@ -53,12 +73,15 @@
     margin-top: 1%;
 }
 
+
+/*
 @media (min-width:992px) {
     .arowRight,
     .arowLeft {
         display: contents !important;
     }
 }
+*/
 
 #sliderButton .carousel-item .sliderCol {
     width: 25%
@@ -70,10 +93,17 @@
 
 @media (max-width: 575.98px) {
     #sliderButton .carousel-item .sliderCol {
-        width: 50% !important;
+        width: 50%
+    }
+    #sliderButton .carousel-item .sliderCol button {
+        width: 30% !important;
     }
     #sliderButton {
         margin-top: 65% !important;
+    }
+    #sliderButton .carousel-inner .carousel-item-next,
+    #sliderButton .carousel-inner .carousel-item-prev {
+        padding-bottom: 5% !important;
     }
 }
 

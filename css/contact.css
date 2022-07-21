@@ -75,7 +75,7 @@ main .store {
 
 .sub .btn-hover {
     width: 450px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -101,7 +101,7 @@ main .store {
 }
 
 .btn-hover.color-7 {
-    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    background-color: #2B5278;
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
