@@ -61,11 +61,13 @@ html {
     width: 35px;
     height: 35px;
     background: url("../img/icons/person1.png") no-repeat;
+    border-radius: 50% !important;
     transition: 0.3s;
 }
 
 .person:hover {
     background: url("../img/icons/person2.png") no-repeat;
+    border-radius: 50% !important;
 }
 
 .lang {
@@ -382,14 +384,7 @@ html {
 .baseNav .navIcon {
     display: flex !important;
     flex-direction: row !important;
-}
-
-.baseNav .dropdown-menu {
-    background-color: #EEE;
-}
-
-.baseNav .dropdown-menu li a {
-    color: rgb(23, 13, 58) !important;
+    margin-bottom: .25% !important;
 }
 
 .baseNav .menuMob {
@@ -411,7 +406,6 @@ html {
 .navDep .nav-item a {
     color: #fff !important;
     font-size: 25px;
-    margin-top: 1%;
 }
 
 .navDep .nav-item a:hover {
@@ -440,20 +434,20 @@ html {
     background-color: #EEE;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .baseNav .sidenav a {
     padding: 6px 6px 6px 24px;
     text-decoration: none;
     font-size: 25px;
-    color: #171e8c !important;
+    color: #2B5278 !important;
     display: block;
     transition: 0.3s;
 }
 
 .baseNav .sidenav a:hover {
-    color: #f1f1f1;
+    color: #16363b !important;
 }
 
 .baseNav .sidenav .closebtn {
@@ -469,7 +463,14 @@ html {
         padding-top: 15px;
     }
     .baseNav .sidenav a {
-        font-size: 18px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 767.98px)and (max-width: 991px) {
+    .MenuLarge {
+        margin-top: 1.5% !important;
+        font-size: 22px !important;
     }
 }
 
@@ -481,6 +482,10 @@ html {
         display: block !important;
         position: absolute;
         left: 3%;
+        top: 8%;
+    }
+    .baseNav .menuMob span {
+        font-size: 25px !important;
     }
     .baseNav .buttonIPad {
         display: none;
@@ -520,11 +525,11 @@ html {
 
 @media (min-width: 767.98px)and (max-width: 991px) {
     .sideNavContent {
-        margin-top: 3%;
+        margin-bottom: 2%;
     }
     .navDep .nav-item a {
         color: #fff !important;
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -536,7 +541,22 @@ html {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .sideNavContent {
-        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    .MenuLarge {
+        font-size: 25px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .baseNav .container {
+        padding-top: .5%;
+    }
+    baseNav .navIcon {
+        margin-bottom: 1% !important;
+    }
+    .sideNavContent {
+        padding-top: 1% !important;
     }
 }
 
@@ -730,25 +750,15 @@ html {
 /*Back to Top button*/
 
 #myBtn {
-    font-size: 10px;
-    border: none;
-    outline: none;
-    background-image: linear-gradient(#fff, #ddd);
-    cursor: pointer;
-    font-weight: bolder;
-    padding: 10px;
-    border-radius: 50%;
-}
-
-#myBtn i {
-    color: #2B5278;
-    font-size: 20px;
-    font-weight: bolder !important;
+    width: 50px;
+    height: 50px;
+    background: url("../img/icons/top1.png") no-repeat;
     transition: 0.3s;
+    border-radius: 50% !important;
 }
 
 #myBtn:hover {
-    color: #27CE8B !important;
+    background: url("../img/icons/top2.png") no-repeat;
 }
 
 
@@ -896,18 +906,22 @@ footer .ver::after {
 }
 
 .bottomLogo {
-    max-width: 200px !important;
-    max-height: 200px;
+    max-width: 150px !important;
+    max-height: 150px;
 }
 
 @media (max-width: 567px) {
     .logoFoot img {
         display: block !important;
-        margin-right: 20% !important;
+        margin-right: 25% !important;
     }
     .footerContent {
         display: block !important;
         text-align: center !important;
+    }
+    .bottomLogo {
+        max-width: 120px !important;
+        max-height: 120px;
     }
 }
 
@@ -930,17 +944,15 @@ footer .ver::after {
     color: #2B5278 !important;
 }
 
-.CompareHeading a {
-    background-image: linear-gradient(#fff, #ddd);
-    border-radius: 12%;
-}
-
-.CompareHeading a i {
-    color: #190f68 !important;
+.back {
+    width: 50px;
+    height: 50px;
+    background: url("../img/icons/back1.png") no-repeat;
     transition: 0.3s;
-    font-size: 18px;
+    border-radius: 50% !important;
 }
 
-.CompareHeading a i:hover {
-    color: rgb(53, 205, 50) !important;
+.back:hover {
+    background: url("../img/icons/back2.png") no-repeat;
+    border-radius: 50% !important;
 }

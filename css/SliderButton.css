@@ -118,7 +118,7 @@
         width: 50% !important;
     }
     #sliderButton {
-        margin-top: 65% !important;
+        margin-top: 52% !important;
     }
     #sliderButton .carousel-inner .carousel-item-next,
     #sliderButton .carousel-inner .carousel-item-prev {
@@ -131,7 +131,7 @@
         width: 40% !important;
     }
     #sliderButton {
-        margin-top: 40% !important;
+        margin-top: 35% !important;
     }
     #sliderButton .carousel-inner .carousel-item>div {
         display: none;
@@ -165,6 +165,6 @@
         width: 50% !important;
     }
     #sliderButton {
-        margin-top: 40% !important;
+        margin-top: 42% !important;
     }
 }

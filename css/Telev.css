@@ -96,18 +96,34 @@ body {
 .lightButton {
     background-color: #EEE !important;
     border-radius: 10px !important;
+    margin-left: 2% !important;
+    margin-bottom: 2% !important;
 }
 
 .lightButton a {
     color: #2B5278 !important;
+    transition: 0.3s;
+}
+
+.cardP .btn a:hover {
+    color: #fff !important;
 }
 
 .lightButton:hover {
     background-color: #095939 !important;
+    color: #fff !important;
 }
 
-.lightButton a:hover {
+.lightButton:hover a {
     color: #fff !important;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .buttonLarge {
+        display: flex !important;
+        justify-content: end;
+        flex-direction: row !important;
+    }
 }
 
 
