@@ -744,10 +744,11 @@ html {
     color: #2B5278;
     font-size: 20px;
     font-weight: bolder !important;
+    transition: 0.3s;
 }
 
 #myBtn:hover {
-    background-color: #eee;
+    color: #27CE8B !important;
 }
 
 
@@ -773,7 +774,7 @@ html {
     background-image: linear-gradient(#fff, #ddd);
     box-shadow: none;
     border: none;
-    color: #fff;
+    color: #16363b;
 }
 
 .subscribe .search button {
