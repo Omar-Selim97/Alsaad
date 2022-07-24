@@ -1,10 +1,10 @@
     main h1 {
         margin-top: 15% !important;
-        color: #0e2b58 !important;
+        color: #16363b !important;
     }
     
     main .store {
-        color: rgb(18, 10, 70);
+        color: #2B5278;
     }
     
     .contact {
@@ -35,11 +35,11 @@
     
     .contact:hover:after {
         width: 18%;
-        background: rgb(43, 161, 43);
+        background: #27CE8B;
     }
     
     .contact .contcatText {
-        color: green;
+        color: #27CE8B;
     }
     
     .social {
@@ -99,6 +99,11 @@
     .btn-hover.color-7 {
         background-color: #2B5278;
         box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+        transition: 0.3s;
+    }
+    
+    .btn-hover.color-7:hover {
+        background-color: #16363b;
     }
     /*End Form*/
     /*Social Media*/
@@ -110,7 +115,7 @@
     
     @media (max-width: 575.98px) {
         main h1 {
-            margin-top: 70% !important;
+            margin-top: 56% !important;
             font-size: 16px;
             font-weight: bold;
         }

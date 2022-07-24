@@ -28,11 +28,6 @@
 
 /*Nav Icons*/
 
-.navbar-nav .nav-item img {
-    max-width: 70%;
-    border-radius: 50%;
-}
-
 
 /*Customs Select options*/
 
@@ -150,10 +145,6 @@
         max-width: 100% !important;
         border-radius: 0 !important;
     }
-    .navst .container .navbar-nav .nav-item img {
-        max-width: 40%;
-        border-radius: 50%;
-    }
     .navst .container .navbar-nav {
         margin-bottom: 2%;
         display: flex !important;
@@ -182,10 +173,6 @@
     .navst .container .navbar-brand img {
         max-width: 100% !important;
         border-radius: 0 !important;
-    }
-    .navst .container .navbar-nav .nav-item img {
-        max-width: 40%;
-        border-radius: 50%;
     }
     .navst .container .navbar-nav {
         padding-left: 3%;
@@ -228,10 +215,6 @@
     .navst .container .navbar-brand img {
         max-width: 100% !important;
         border-radius: 0 !important;
-    }
-    .navst .container .navbar-nav .nav-item img {
-        max-width: 30%;
-        border-radius: 50%;
     }
     .navst .container .navbar-nav {
         padding-left: 5%;
@@ -457,4 +440,82 @@
 
 
 /*End Base Navbar*/
+
+
 /*End Header*/
+
+#slid {
+    margin-top: 350px !important;
+}
+
+
+/*icon hover*/
+
+.shop {
+    width: 35px;
+    height: 35px;
+    background: url("../img/icons/cart.png") no-repeat;
+    transition: 0.3s;
+}
+
+.shop:hover {
+    background: url("../img/icons/c2.png") no-repeat;
+}
+
+.person {
+    width: 35px;
+    height: 35px;
+    background: url("../img/icons/person1.png") no-repeat;
+    transition: 0.3s;
+}
+
+.person:hover {
+    background: url("../img/icons/person2.png") no-repeat;
+}
+
+.lang {
+    width: 35px;
+    height: 35px;
+    background: url("../img/icons/en1.png") no-repeat;
+    transition: 0.3s;
+}
+
+.lang:hover {
+    background: url("../img/icons/en2.png") no-repeat;
+}
+
+.fs {
+    width: 35px;
+    height: 35px;
+    background: url("../img/icons/fs1.png") no-repeat;
+    transition: 0.3s;
+}
+
+.fs:hover {
+    background: url("../img/icons/fs2.png") no-repeat;
+}
+
+.ins {
+    width: 35px;
+    height: 35px;
+    background: url("../img/icons/ins1.png") no-repeat;
+    transition: 0.3s;
+}
+
+.ins:hover {
+    background: url("../img/icons/ins2.png") no-repeat;
+}
+
+.ws {
+    width: 35px;
+    height: 35px;
+    background: url("../img/icons/ws2.png") no-repeat;
+    transition: 0.3s;
+}
+
+.ws:hover {
+    background: url("../img/icons/ws1.png") no-repeat;
+}
+
+
+/*End icon hover*/

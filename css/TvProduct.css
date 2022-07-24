@@ -70,7 +70,15 @@ body {
 }
 
 .lightButton a {
-    color: #113265 !important;
+    color: #2B5278 !important;
+}
+
+.lightButton:hover {
+    background-color: #095939 !important;
+}
+
+.lightButton a:hover {
+    color: #fff !important;
 }
 
 

@@ -84,13 +84,13 @@ body {
 }
 
 .TVHeading {
-    color: #061f47 !important;
+    color: #2B5278 !important;
     padding-bottom: - 100px;
 }
 
 .filter h6 {
     border-bottom: 1px solid #061f47;
-    color: #061f47 !important;
+    color: #2B5278 !important;
 }
 
 .lightButton {
@@ -99,7 +99,15 @@ body {
 }
 
 .lightButton a {
-    color: #113265 !important;
+    color: #2B5278 !important;
+}
+
+.lightButton:hover {
+    background-color: #095939 !important;
+}
+
+.lightButton a:hover {
+    color: #fff !important;
 }
 
 
@@ -139,7 +147,7 @@ body {
         right: 3%;
     }
     .product img {
-        max-width: 250px;
+        max-width: 80%;
     }
     .card .tickt {
         max-width: 30px !important;
@@ -158,7 +166,7 @@ body {
         font-size: 14px;
     }
     .cardP {
-        display: contents;
+        display: contents !important;
         text-align: center;
     }
     .driver {
