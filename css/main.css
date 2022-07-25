@@ -485,7 +485,7 @@ html {
         top: 8%;
     }
     .baseNav .menuMob span {
-        font-size: 25px !important;
+        font-size: 30px !important;
     }
     .baseNav .buttonIPad {
         display: none;
@@ -741,6 +741,14 @@ html {
     #brand .BrandLarge {
         display: none !important;
     }
+    .BrandMobile .carousel-control-prev-icon,
+    .BrandMobile .carousel-control-next-icon {
+        background-color: #27CE8B !important;
+    }
+    .BrandMobile .carousel-inner {
+        margin: auto;
+        max-width: 80% !important;
+    }
 }
 
 
@@ -942,6 +950,7 @@ footer .ver::after {
 
 .CompareHeading {
     color: #2B5278 !important;
+    padding-top: 2%;
 }
 
 .back {
@@ -955,4 +964,17 @@ footer .ver::after {
 .back:hover {
     background: url("../img/icons/back2.png") no-repeat;
     border-radius: 50% !important;
+}
+
+#comp .closeComp {
+    width: 30px;
+    height: 30px;
+    background: url("../img/icons/close2.png") no-repeat;
+    margin-top: 2% !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#comp .closeComp:hover {
+    background: url("../img/icons/close1.png") no-repeat;
 }
