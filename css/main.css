@@ -51,6 +51,7 @@ html {
     height: 35px;
     background: url("../img/icons/cart.png") no-repeat;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .shop:hover {
@@ -63,6 +64,7 @@ html {
     background: url("../img/icons/person1.png") no-repeat;
     border-radius: 50% !important;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .person:hover {
@@ -75,6 +77,7 @@ html {
     height: 35px;
     background: url("../img/icons/en1.png") no-repeat;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .lang:hover {
@@ -89,6 +92,7 @@ html {
     height: 35px;
     background: url("../img/icons/fs1.png") no-repeat;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .fs:hover {
@@ -100,6 +104,7 @@ html {
     height: 35px;
     background: url("../img/icons/ins1.png") no-repeat;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .ins:hover {
@@ -111,13 +116,23 @@ html {
     height: 35px;
     background: url("../img/icons/ws2.png") no-repeat;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .ws:hover {
     background: url("../img/icons/ws1.png") no-repeat;
 }
 
-
+.tw{
+    width: 35px;
+    height: 35px;
+    background: url("../img/icons/tw1.png") no-repeat;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.tw:hover{
+    background: url("../img/icons/tw2.png") no-repeat;
+}
 /*Customs Select options*/
 
 
@@ -481,7 +496,7 @@ html {
 
 @media (min-width: 767.98px)and (max-width: 991px) {
     .MenuLarge {
-        margin-top: 1.5% !important;
+        
         font-size: 22px !important;
     }
 }
@@ -537,11 +552,11 @@ html {
 
 @media (min-width: 767.98px)and (max-width: 991px) {
     .sideNavContent {
-        margin-bottom: 2%;
+        margin-bottom: 1.5%;
     }
     .navDep .nav-item a {
         color: #fff !important;
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
